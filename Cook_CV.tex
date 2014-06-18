@@ -1,45 +1,46 @@
 % LaTeX file for CV 
 % This file uses the resume document class (res.cls)
 
-\documentclass[margin]{res}
+\documentclass{res}
 \usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
-\usepackage{graphicx}
+\usepackage{graphicx, bold-extra}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font  
 %\topmargin=-0.5in % start text higher on the page
 %\setlength{\textheight}{8.5in} % increase text height to fit resume on 1 page
 \newcommand\mancenter[1]{\moveleft.5\hoffset\centerline{#1}}
+\newcommand\boldline{\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}}
 
 \begin{document}  
 \mancenter{\huge \bf{Benjamin A. Cook}}
 \mancenter{\huge Curriculum Vitae} 
-\mancenter{\large \href{mailto:bacook@princeton.edu}{bacook@princeton.edu}}
 
-%\mancenter{\large\tt\href{mailto:bacook@princeton.edu}{bacook@princeton.edu}}
+\address{Mailing Address:\\60 Garden St. Mail Stop 10\\Cambridge, MA
+  02138\\Email:
+  \href{mailto:bcook@g.harvard.edu}{bcook@g.harvard.edu}}
+\address{Phone: (603) 313-2888\\Homepage:
+  \href{http://astro.princeton.edu/~bacook}{http://astro.princeton.edu/$\sim$bacook}\\Blog:
+  \href{http://violentrelaxation.wordpress.com}{http://violentrelaxation.wordpress.com}\\Twitter:
+  \href{https://twitter.com/bacook17}{@bacook17}}
 
 \begin{resume}                        
- 
-\section{ADDRESS}
-\section{Work}
-Department of Astrophysical Sciences\\
-Peyton Hall\\
-Princeton University\\ 
-Princeton, NJ 08544
 
-\section{Electronic}
-Homepage: \href{http://astro.princeton.edu/~bacook}{http://astro.princeton.edu/$\sim$bacook}\\
-Blog: \href{http://violentrelaxation.wordpress.com}{http://violentrelaxation.wordpress.com}\\
-Twitter: \href{https://twitter.com/bacook17}{@bacook17}
-
-\section{EDUCATION} 
+\section{\textbf{Education}}
+\vspace{.05in}
+\begin{tabular}{@{}p{4in} r@{}}
+Harvard University, Cambridge, MA & 2014 -- Present
+\end{tabular}
+\begin{itemize} \itemsep -2pt
+\item[] Ph.D.~(\textit{in progress}) Astronomy and Astrophysics
+\end{itemize}
 
 \begin{tabular}{@{}p{4in} r@{}}
   Princeton University, Princeton, NJ & 2010 -- 2014
 \end{tabular}
 \begin{itemize} \itemsep -2pt
-\item[] A.B.~Astrophysical Sciences
-\item[] Thesis: \textit{The Cosmic Distribution of
-  Baryons and Dark Matter}
+\item[] A.B.~Astrophysical Sciences -- Magna cum laude
+\item[] Thesis: \textit{Keep Calm and Baryon: The Distribution of
+  Baryons and Dark Matter in the Universe}
 \item[] Advisor: Prof.~Neta Bahcall
 \end{itemize}
 
@@ -50,31 +51,51 @@ Twitter: \href{https://twitter.com/bacook17}{@bacook17}
 \item[] Class Valedictorian
 \end{itemize}
 
-\section{AWARDS}
-\begin{tabular}{ll}
-NSF Graduate Research Fellow & 2014 -- \\
-AAS Chambliss Medal & 2014
-\end{tabular}
+\section{\textbf{Awards and Honors}}
+\vspace{.05in}
+Sigma Xi (2014)\\
+NSF Graduate Research Fellowship (2014 -- Present)\\
+AAS Chambliss Medal (2014)
 
-\section{PUBLICATIONS}
 
-\textbf{Cook, B.A.}, Williams, P.K.G., Berger, E. 2014, \textit{ApJ},
-785, 10, ``Trends in Ultracool Dwarf Magnetism.~II. The Inverse
-Correlation between X-ray Activity and Rotation as Evidence for a
-Bimodal Dynamo'';
+\section{\textbf{Teaching and Outreach}} 
+\vspace{.05in}     
+Volunteer math tutor, Prison Teaching Initiative (Spring 2014)\\
+Instructor, \textit{The Marvelous Universe}, Princeton Wintersession Course (Jan.~2014)\\
+Participant, AAS Astronomy Ambassador Training Workshop (Jan.~2014)\\
+Volunteer, Mars and Beyond exhibit, Boston Museum of Science (Aug.~2013)\\
+Teaching Assistant, Princeton AST 204 (Spring 2013)\\
+Teaching Assistant, Princeton AST 205 (Fall 2012)\\
+Volunteer, Peyton Observatory public observing nights (2012
+-- 2014)
+
+\section{\textbf{Professional Activities}}
+\vspace{0.05in}
+Member, The Planetary Society (2014 -- Present)\\
+Junior Member, American Astronomical Society (2012 -- Present)\\
+Departmental Representative, Princeton Major Choices Advising (2012 -- 2014)\\
+Chapter President, Society of Physics Students (2012 -- 2014)
+
+
+\section{\textbf{Publications}}
+\vspace{.05in} \textbf{Cook, B.A.}, Williams, P.K.G., Berger, E. 2014,
+``Trends in Ultracool Dwarf Magnetism.~II. The Inverse Correlation
+between X-ray Activity and Rotation as Evidence for a Bimodal
+Dynamo'', \textit{ApJ}, 785, 10
 [\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
 
-Williams, P.K.G., \textbf{Cook, B.A.}, Berger, E. 2014, \textit{ApJ},
-785, 9, ``Trends in Ultracool Dwarf Magnetism.~I. X-ray Suppression
-and Radio Enhancement'';
+Williams, P.K.G., \textbf{Cook, B.A.}, Berger, E. 2014, ``Trends in
+Ultracool Dwarf Magnetism.~I. X-ray Suppression and Radio
+Enhancement'', \textit{ApJ}, 785, 9
 [\href{http://arxiv.org/abs/1310.6757}{arXiv:1310.6757}]
 
-P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014,
-\textit{A\&A}, 563, A54, ``The Sloan Digital Sky Survey quasar
-catalog: tenth data release''; [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
+P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014, ``The Sloan
+Digital Sky Survey quasar catalog: tenth data release'',
+\textit{A\&A}, 563, A54
+       [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
 
-\section{POSTERS}
-
+\section{\textbf{Posters}}
+\vspace{.05in}
 \textit{Magnetic Dynamos and X-ray Activity in Ultracool Dwarfs (UCDs):
 Constraining the Role of Rotation}\\ 223rd Meeting of the AAS,
 \#441.10 -- January 2014, Washington, DC \\ \textbf{Chambliss Medal
@@ -84,23 +105,7 @@ Constraining the Role of Rotation}\\ 223rd Meeting of the AAS,
   (UCDs): Constraining the Role of Rotation}\\ The Fourth Tri-State
 Astronomy Conference at CUNY -- September 2013, New York
 
-\section{EXPERIENCE}      
-\normalsize{\section{Teaching}}
-\begin{tabular}{@{}p{4in} r}
-  Teaching Assistant to Prof. Neta Bahcall & Spring 2013
-\end{tabular}
-\begin{itemize}
-\item[] AST 204 - \textit{Topics in Modern Astronomy}
-\end{itemize}
-
-\begin{tabular}{@{}p{4in} r}
-  Teaching Assistant to Prof. G\'asp\'ar Bakos & Fall 2012
-\end{tabular}
-\begin{itemize}
-\item[] AST 205 - \textit{Planets in the Universe}
-\end{itemize}
-
-\normalsize{\section{Research}}
+\section{\textbf{Research}}
 \begin{tabular}{@{}p{4in} r}
   Senior Thesis (Princeton University) & Fall 2013 -- Spring 2014
 \end{tabular}
@@ -140,22 +145,8 @@ Astronomy Conference at CUNY -- September 2013, New York
 \item[] Advisor: Dr.~Renyue Cen
 \end{itemize}
 
-\section{OUTREACH}
-Instructor -- \textit{The Marvelous Universe} -- Princeton Wintersession Course (Jan.~2014)
-
-American Astronomical Society -- Astronomy Ambassador Training Workshop (Jan.~2014)
-
-Volunteer presenter -- \textit{Mars and
-  Beyond} exhibit -- Boston Museum of Science (Aug.~2013)
-
-Volunteer host for Peyton Observatory public
-observing nights (2012-present).
-
-Volunteer math tutor, Prison Teaching
-Initiative (Spring 2014)
-
-\section{SKILLS}
-\normalsize{\section{Computing}}
+\section{\textbf{Computing Skills}}
+\vspace{.05in}
 Programming Languages
 \begin{itemize}
 \item[] Python, C, Java
@@ -168,14 +159,6 @@ Others
 \begin{itemize}
 \item[] Linux/UNIX, \textit{Chandra} CIAO, Mathematica, GIT, FITS
 \end{itemize}
-
-\normalsize{\section{Leadership}}
-Princeton University Ticketing Manager: Fall 2010 - Present\\
-\textit{Trained and supervised other students in daily ticketing office operations}
-
-President of Princeton Society of Physics
-Students: Spring 2012 - Winter 2014 \\
-\textit{Organized colloquia and group activities; authored club constitution}
 
 \end{resume} 
 \end{document}
