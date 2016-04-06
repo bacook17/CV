@@ -3,13 +3,16 @@
 
 \documentclass{res}
 \usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
-\usepackage{graphicx, bold-extra}
+\usepackage[ampersand]{easylist}
+\usepackage{graphicx, bold-extra, enumitem, amssymb}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font  
 \topmargin=-0.5in % start text higher on the page
 \setlength{\textheight}{10in} % increase text height
 \newcommand\mancenter[1]{\moveleft.5\hoffset\centerline{#1}}
 \newcommand\boldline{\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}}
+\newcommand\mysubsections{\ListProperties(Hide=1000, Progressive*=6ex,
+  Space*=-0.12in, Space=-0.12in, Space2*=-0.15in)}
 
 \begin{document}  
 \mancenter{\huge \bf{Benjamin A. Cook}}
@@ -29,149 +32,226 @@ Cambridge, MA 02138 & Twitter: \href{https://twitter.com/bacook17}{@bacook17}\\
 
 \section{\textbf{Education}}
 \vspace{.1in}
-\begin{tabular}{@{}p{4in} r@{}}
-\textbf{Harvard University}, Cambridge, MA & 2014 -- Present
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Ph.D.~(\textit{in progress}) Astronomy and Astrophysics
-\end{itemize}
+\begin{easylist} \mysubsections
+  & \textbf{Harvard University}, Cambridge, MA \hfill 2014 -- Present \hspace{.5in}
+  
+  && Ph.D.~(\textit{In progress}), Astronomy and Astrophysics
 
-\begin{tabular}{@{}p{4in} r@{}}
-\textbf{Princeton University}, Princeton, NJ & 2010 -- 2014
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] A.B.~Astrophysical Sciences -- Magna cum laude
-\item[] Thesis: \textit{Keep Calm and Baryon: The Distribution of
-  Baryons and Dark Matter in the Universe}
-\item[] Advisor: Prof.~Neta Bahcall
-\end{itemize}
+  && M.A.~(2016), Astronomy and Astrophysics
 
-\begin{tabular}{@{}p{4in} r@{}}
-  Keene High School, Keene, NH & 2006 -- 2010
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Class Valedictorian
-\end{itemize}
+  && Secondary Field, Computational Science and Engineering
+
+  & \textbf{Princeton University}, Princeton, NH \hfill 2010 -- 2014 \hspace{.5in}
+
+  && A.B.~(2014), Astrophysical Sciences -- Magna cum laude
+
+  && Thesis: \textit{Keep Calm and Baryon: The Distribution of Baryons
+    and Dark Matter in the Universe}
+
+  && Advisor: Prof.~Neta Bahcall
+
+%  &\textbf{Keene High School}, Keene, NH \hfill 2006 -- 2010 \hspace{.5in}
+  
+%  && Class Valedictorian
+
+\end{easylist}
 
 \section{\textbf{Awards and Honors}}
-\vspace{.1in}
-Elected to Sigma Xi Science Honor Society (2014)\\
-NSF Graduate Research Fellowship (2014 -- Present)\\
-AAS Chambliss Medal (2014)
+\vspace{.2in}
+\begin{easylist} \mysubsections
+  & Certificate of Teaching Excellence, Derek Bok Center for
+  Teaching and Learning (2016)
+
+  && Awarded for Fall 2015 teaching of Harvard Astro 200 
+  
+  & NSF Graduate Research Fellowship (2014 -- Present)
+
+  & Elected to Sigma Xi Science Honor Society (2014)
+
+  & AAS Chambliss Medal (2014)
+
+  && Awarded for Jan.~2014 poster presentation at AAS 223.
+\end{easylist}
+
+\section{\textbf{Teaching Experience}}
+\vspace{.2in}
+\begin{easylist} \mysubsections
+  & Teaching Fellow, Harvard Astro 200 (Fall 2015)
+
+  & Teaching Fellow, Harvard Astro 16 (Spring 2014)
+
+  & Instructor, \textit{The Marvelous Universe}, Princeton
+  Wintersession Course (Jan.~2014)
+
+  & Teaching Assistant, Princeton AST 204 (Spring 2013)
+
+  & Teaching Assistant, Princeton AST 205 (Fall 2012)
+
+\end{easylist}
+
+\section{\textbf{Professional and Outreach Activities}}
+\vspace{0.2in}
+\begin{easylist} \mysubsections
+  & Mentor, Banneker Institute Summer Program (Summer 2016)
+
+  & Coordinator, Harvard Astronomy prospective student visits (2016)
+  
+  & Local Organizing Committee,
+  \href{http://www.comscicon.com}{ComSciCon} National Workshop (2014
+  -- Present)
+
+  && Co-Chair (2015 -- Present)
+
+  & Author/Peer-Editor, \href{http://www.astrobites.org}{Astrobites}
+  astronomy blog (2014 --
+  Present)
+
+  & Volunteer math tutor, Princeton Prison Teaching Initiative (Spring 2014)
 
 
-\section{\textbf{Teaching and Outreach}} 
-\vspace{.1in}
-Volunteer, Harvard Observing Program (Fall 2014 -- Present)\\
-Volunteer math tutor, Prison Teaching Initiative (Spring 2014)\\
-Instructor, \textit{The Marvelous Universe}, Princeton Wintersession Course (Jan.~2014)\\
-Participant, AAS Astronomy Ambassador Training Workshop (Jan.~2014)\\
-Volunteer, Mars and Beyond exhibit, Boston Museum of Science (Aug.~2013)\\
-Teaching Assistant, Princeton AST 204 (Spring 2013)\\
-Teaching Assistant, Princeton AST 205 (Fall 2012)\\
-Volunteer, Peyton Observatory Public Observing Nights (2012
--- 2014)
+  %& Volunteer, Mars and Beyond exhibit, Boston Museum of Science
+  %(Aug.~2013)
 
-\section{\textbf{Professional Activities}}
-\vspace{0.1in}
-Local Organizing Committee, Communicating Science Convention (2014 -- Present)\\
-Author, \href{http://www.astrobites.org}{Astrobites} (2014 -- Present)\\
-Member, The Planetary Society (2014 -- Present)\\
-Junior Member, American Astronomical Society (2012 -- Present)\\
-Departmental Representative, Princeton Major Choices Advising (2012 -- 2014)\\
-Chapter President, Society of Physics Students (2012 -- 2014)
+  %& Member, The Planetary Society (2014 -- Present)
+
+  & Attendee, AAS Astronomy Ambassador Training Workshop
+  (Jan.~2014)
+
+  & Volunteer, Peyton Observatory Public Observing Nights (2012
+  -- 2014)
+
+  & Junior Member, American Astronomical Society (2012 -- Present)
+
+  & Departmental Representative, Princeton Major Choices Advising
+  (2012 -- 2014)
+
+  & Chapter President, Society of Physics Students (2012 -- 2014)
+  \end{easylist}
+
+\section{\textbf{Presentations}}
+\vspace{0.2in}
+\begin{easylist} \mysubsections
+  & \textbf{Contributed Talks}
+  && 228th Meeting of the AAS, \#202.01 -- June 2016, San
+  Diego, CA &&& \textit{The Information Content of Stellar Halos: Accretion
+    Histories and Stellar Population Gradients in Quiescent Illustris
+    Galaxies} 
+  
+  && International Astronomy Union Symposium
+  317, \#2246021 -- August 2015, Honolulu, HI &&& \textit{Stellar Populations of Stellar Halos: Results from the
+    Illustris Simulation}
+ 
+ & \textbf{Outreach Talks}
+  
+  && CfA Summer Colloquium Series -- Summer
+  2016, Cambridge, MA &&& \textit{TBD}
+  
+  && New Hampshire Astronomical Society Meeting -- Summer
+  2016, Manchester, NH &&& \textit{TBD}
+  
+  & \textbf{Posters}
+  
+  && 3rd Annual GMT Community Science Meeting --
+  October 2015, Pacific Grove, CA &&& \textit{Stellar Populations of Stellar Halos: Results from the
+    Illustris Simulation}
+  
+  && International Astronomy Union Symposium
+  317, \#S317p.12 -- August 2015, Honolulu, HI &&& \textit{Stellar Populations of Stellar Halos: Results from the
+    Illustris Simulation}
+  
+  && 223rd Meeting of the AAS, \#441.10 -- January 2014, Washington,
+  DC &&& \textit{Magnetic Dynamos and X-ray Activity in Ultracool Dwarfs:
+    Constraining the Role of Rotation} -- \textbf{Chambliss Medal Winner}
+  
+  && The 4th Tri-State Astronomy Conference at CUNY -- September 2013,
+  New York &&& \textit{Magnetic Dynamos and X-ray Activity in Ultracool Dwarfs:
+    Constraining the Role of Rotation}
+\end{easylist}
 
 \section{\textbf{Publications}}
-\vspace{.1in} \textbf{Cook, B.A.}, Williams, P.K.G., Berger, E. 2014,
-``Trends in Ultracool Dwarf Magnetism.~II. The Inverse Correlation
-between X-ray Activity and Rotation as Evidence for a Bimodal
-Dynamo'', \textit{ApJ}, 785, 10
-[\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
+\vspace{.2in}
+\begin{easylist}[enumerate] \mysubsections
+  \ListProperties(Hide=0)
+  & \textbf{Cook, B.A.}, Williams, P.K.G., Berger, E. 2014, ``Trends
+  in Ultracool Dwarf Magnetism.~II. The Inverse Correlation between
+  X-ray Activity and Rotation as Evidence for a Bimodal Dynamo'',
+  \textit{ApJ}, 785, 10
+         [\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
 
-Williams, P.K.G., \textbf{Cook, B.A.}, Berger, E. 2014, ``Trends in
-Ultracool Dwarf Magnetism.~I. X-ray Suppression and Radio
-Enhancement'', \textit{ApJ}, 785, 9
-[\href{http://arxiv.org/abs/1310.6757}{arXiv:1310.6757}]
+  & Williams, P.K.G., \textbf{Cook, B.A.}, Berger, E. 2014, ``Trends
+         in Ultracool Dwarf Magnetism.~I. X-ray Suppression and Radio
+         Enhancement'', \textit{ApJ}, 785, 9
+         [\href{http://arxiv.org/abs/1310.6757}{arXiv:1310.6757}]
 
-P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014, ``The Sloan
-Digital Sky Survey quasar catalog: tenth data release'',
-\textit{A\&A}, 563, A54
-       [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
+  & P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014,
+         ``The Sloan Digital Sky Survey quasar catalog: tenth data
+         release'', \textit{A\&A}, 563, A54
+         [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
+\end{easylist}
+\NewList
 
-\section{\textbf{Posters}}
-\vspace{.1in}
-\textit{Magnetic Dynamos and X-ray Activity in Ultracool Dwarfs (UCDs):
-Constraining the Role of Rotation}\\ 223rd Meeting of the AAS,
-\#441.10 -- January 2014, Washington, DC \\ \textbf{Chambliss Medal
-  Winner}
+\section{\textbf{Selected Research Experience}}
+\vspace{0.2in}
+\begin{easylist} \mysubsections
+  & Research Exam Project (Harvard University) \hfill Fall 2015 --
+  present \hspace{0.5in}
 
-\textit{Magnetic Dynamos and X-ray Activity in Ultracool Dwarfs
-  (UCDs): Constraining the Role of Rotation}\\ The Fourth Tri-State
-Astronomy Conference at CUNY -- September 2013, New York
+  && Topic: Galactic accretion histories and stellar populations in
+  hydrodynamical simulations.
 
-\section{\textbf{Research Experience}}
-\vspace{0.1in}
-\begin{tabular}{@{}p{4in} r}
-  Research Exam Project (Harvard University) & Fall 2015 -- present
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-  \item[] Topic: Galactic stellar halos and merger histories in
-    numerical simulations.
-  \item[] Advisor: Prof.~Charlie Conroy
-\end{itemize}
-\begin{tabular}{@{}p{4in} r}
-  Senior Thesis (Princeton University) & Fall 2013 -- Spring 2014
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Topic: The cosmic distributions of baryons and dark matter.
-\item[] Advisor: Prof.~Neta Bahcall
-\end{itemize}
-\begin{tabular}{@{}p{4in} r}
-  Astronomy REU (Harvard University) & Summer 2013
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Topic: The X-ray activity/rotation relation in ultracool
+  && Advisor: Prof.~Charlie Conroy
+
+  & Senior Thesis (Princeton University) \hfill  Fall 2013 -- Spring
+  2014 \hspace{0.5in}
+
+  && Topic: The cosmic distributions of baryons and dark matter.
+
+  && Advisor: Prof.~Neta Bahcall
+
+  & Astronomy REU (Harvard University) \hfill Summer 2013 \hspace{0.5in}
+
+  && Topic: The X-ray activity/rotation relation in ultracool
   dwarfs
-\item[] Advisors: Drs.~Edo Berger and Peter Williams
-\end{itemize}
-\begin{tabular}{@{}p{4in} r}
-  Junior Research Paper (Princeton University) & Spring 2013
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Topic: Type II quasars in the BOSS survey
-\item[] Advisor: Prof.~Michael Strauss
-\end{itemize}
-\begin{tabular}{@{}p{4in} r}
-  Junior Research Paper (Princeton University) & Fall 2012
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Topic: Photometric analysis of asteroids with the HATNet
-  survey
-\item[] Advisor: Prof.~G\'asp\'ar Bakos
-\end{itemize}
-\begin{tabular}{@{}p{4in} r}
-  Undergraduate Summer Research Program (Princeton University) &
-  Summer 2012
-\end{tabular}
-\begin{itemize} \itemsep -2pt
-\item[] Topic: Galactic luminosity and mass functions from simulations
-\item[] Advisor: Dr.~Renyue Cen
-\end{itemize}
+
+  && Advisors: Drs.~Edo Berger and Peter Williams
+
+  %& Junior Research Paper (Princeton University) \hfill Spring 2013 \hspace{0.5in}
+
+  %&& Topic: Type II quasars in the BOSS survey
+
+  %&& Advisor: Prof.~Michael Strauss
+
+  %& Junior Research Paper (Princeton University) \hfill Fall
+  %2012 \hspace{0.5in}
+
+  %&& Topic: Photometric analysis of asteroids with the HATNet
+  %survey
+
+  %&& Advisor: Prof.~G\'asp\'ar Bakos
+
+  %& Undergraduate Summer Research Program (Princeton University)
+  %\hfill Summer 2012 \hspace{0.5in}
+
+  %&& Topic: Galactic luminosity and mass functions from simulations
+
+  %&& Advisor: Dr.~Renyue Cen
+\end{easylist}
 
 \section{\textbf{Computing Skills}}
-\vspace{.1in}
-Programming Languages
-\begin{itemize}
-\item[] Python, C, Java
-\end{itemize}
-Electronic Presentation
-\begin{itemize}
-\item[] \LaTeX, HTML
-\end{itemize}
-Others
-\begin{itemize}
-\item[] Linux/UNIX, \textit{Chandra} CIAO, Mathematica, GIT, FITS
-\end{itemize}
+\vspace{.2in}
+\begin{easylist} \mysubsections
+  & Languages
+
+  && Python, C, Java, Wolfram (Mathematica)
+
+  & Electronic Presentation
+  
+  && \LaTeX, HTML, Jupyter (iPython) notebook
+
+  & Other Development Tools
+
+  && Bash, Git, Make, Python multiprocessing, SLURM cluster manager
+\end{easylist}
 
 \end{resume} 
 \end{document}
