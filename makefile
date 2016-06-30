@@ -5,3 +5,6 @@ clean:
 
 Cook_CV:
 	command latexdriver Cook_CV.tex Cook_CV.pdf
+
+grad:
+	command latexdriver CV_grad.tex CV_grad.pdf
