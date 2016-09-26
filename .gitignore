@@ -2,3 +2,4 @@
 *.pdf
 .nfs*
 .latexwork/*
+.DS_Store

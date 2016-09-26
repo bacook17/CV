@@ -1,67 +1,68 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex)
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./Cook_CV.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo))
 No auxiliary output files.
 
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty))
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty))
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/easylist/easylist.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def)))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/bold-extra/bold-extra.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/easylist/easylist.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bold-extra/bold-extra.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 No file _latexwork/Cook_CV.aux.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd)
-Overfull \hbox (1.60323pt too wide) in paragraph at lines 27--29
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Overfull \hbox (1.60323pt too wide) in paragraph at lines 28--30
 []\OT1/cmr/m/n/10 Homepage: [][]www.cfa.harvard.edu/$\OMS/cmsy/m/n/10 ^^X$\OT1/
 cmr/m/n/10 bcook[][] 
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3] )
 (see the transcript file for additional information) </Users/bcook/Library/texl
-ive/2014/texmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.864pk></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
+ive/2016/texmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.864pk></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on _latexwork/Cook_CV.pdf (3 pages, 107599 bytes).
+Output written on _latexwork/Cook_CV.pdf (3 pages, 108472 bytes).
 Transcript written on _latexwork/Cook_CV.log.
