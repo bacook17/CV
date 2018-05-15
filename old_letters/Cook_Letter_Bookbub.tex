@@ -1,0 +1,103 @@
+% Cover letter using letter.cls
+\documentclass{letter}
+\usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage[margin=0.5in, rmargin=1.in]{geometry}
+\setlength{\textheight}{10in} % increase text height
+\topmargin=-1.5in    % Make letterhead start about 1 inch from top of page
+%\textheight=8in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\newcommand\mancenter[1]{\moveleft.5\hoffset\centerline{#1}}
+\newcommand\boldline{\moveleft.0\hoffset\vbox{\hrule width\textwidth
+    height 1pt}}
+\newcommand\toedit[1]{\textcolor{red}{#1}} 
+\begin{document}
+
+ 
+\begin{letter}{Hiring Manager\\
+    BookBub\\ 1 Broadway\\Cambridge, MA, 02142}
+
+
+\mancenter{\Large \bf{Benjamin A. Cook}} \mancenter{ 60 Garden St.~MS
+  10, Cambridge, MA 02138 $\bullet$ (603) 313-2888}
+\mancenter{  \href{mailto:bcook@cfa.harvard.edu}{bcook@cfa.harvard.edu} $\bullet$
+  \href{http://www.cfa.harvard.edu/~bcook}{www.cfa.harvard.edu/$\sim$bcook}}
+\boldline
+
+\signature{\vspace{-0.3in}Ben Cook}                  % name for signature 
+\longindentation=0pt                     % needed to get closing flush left
+\let\raggedleft\raggedright              % needed to get date flush left
+
+\opening{Dear Hiring Manager,} 
+ 
+\noindent I am writing to express my interest in the Summer 2018
+Product \&{} Marketing Analytics Intern position with BookBub. I am
+a 4th-year PhD candidate in astrophysics at Harvard with a secondary
+field in Computational Science and Engineering. I expect to complete
+my PhD in May 2019 and am eager for the chance to get an insider's
+view of working in data science at BookBub this summer. I
+believe my expertise in statistical modeling, dealing with large
+datasets, and conducting independent research will allow me to jump
+directly into a new or ongoing data science project and make an
+immediate impact in the company.
+
+\noindent My skills and interest in data science both grew
+from my early passion for astrophysics. During my undergraduate
+studies at Princeton, my intellectual curiosity was centered on
+questions surrounding the properties of super-massive black holes and
+the nature of dark matter. But what excited me daily and kept me up
+into the early-morning hours were challenges in computation and
+analysis. I truly find nothing more thrilling than solving a
+challenging problem through careful planning, clever statistical
+analysis, and hard work.
+
+\noindent Throughout my PhD program, I have solidified my foundations
+as an independent researcher as well as expanded my computational
+training through both course study and research applications. I have
+taken graduate courses through the Computational Science and
+Engineering program for five straight semesters, including
+\textit{Stochastic Methods for Data Analysis, Inference and
+  Optimization}, \textit{Data Science}, and \textit{Advanced Machine
+  Learning}. I taught myself the tools of GPU-acceleration with CUDA C
+and applied it to my PhD thesis code to achieve a speed-up of over 16x
+compared to the original Python. I have since become a participant in
+the NVIDIA Developer and Educator program, have given several
+presentations on the principles of GPU-acceleration, and was accepted
+to lead a hands-on tutorial course at the upcoming .Astronomy 9
+conference in Cape Town, South Africa in November 2017.
+
+\noindent I would be very excited for the opportunity to apply my
+analytical skills and independence as a researcher to the summer
+analytics internship at BookBub. As a PhD candidate
+looking for eventual employment in data science, I would like
+to showcase my ability to apply my knowledge to problems in industry.
+Please feel free to contact me at (603) 313-2888 or
+bcook@cfa.harvard.edu.
+
+Thank you for your time and consideration.
+
+%Later, when applying for full-time positions, speak more about
+%Leadership experience
+
+\closing{Sincerely,}
+
+%\encl{Resume}					% Enclosures
+
+\end{letter}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+\usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage[ampersand]{easylist}
+\usepackage[tmargin=0.3in,bmargin=0.3in,lmargin=0.0in,rmargin=0.0in]{geometry}
+\usepackage{graphicx, bold-extra, enumitem, amssymb, fancyhdr}
+%\usepackage{times}
+%\usepackage{helvetica}
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+%\topmargin=-0.8in % start text higher on the page
+%\setlength{\textheight}{10in} % increase text height
+\setlength{\textwidth}{7.5in}
+\setlength{\resumewidth}{7.5in}
+\newcommand\mancenter[1]{\centerline{#1}}
+\newcommand\boldline{\vbox{\hrule width\resumewidth height 1pt}}
+\newcommand\mysubsections{\ListProperties(Style3**=)}
+\newcommand\mybullets{\ListProperties(Style3**=$\bullet\;$)}
+\newcommand\itemdate[2]{#1 \hfill #2}
+\newcommand\mysection[1]{\vspace{0.15in}\mancenter{{\large \textbf{\textsc{#1}}}}}
+
+\ListProperties(Hide=1000, Progressive*=2ex,
+  Space*=-0.12in, Space=-0.12in, Space2*=-0.15in, Space3*=-0.15in)

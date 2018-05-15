@@ -1,0 +1,111 @@
+% Cover letter using letter.cls
+\documentclass{letter}
+\usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage[margin=0.5in, rmargin=1.in]{geometry}
+\setlength{\textheight}{10in} % increase text height
+\topmargin=-1.5in    % Make letterhead start about 1 inch from top of page
+%\textheight=8in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\newcommand\mancenter[1]{\moveleft.5\hoffset\centerline{#1}}
+\newcommand\boldline{\moveleft.0\hoffset\vbox{\hrule width\textwidth
+    height 1pt}}
+\newcommand\toedit[1]{\textcolor{red}{#1}} 
+\begin{document}
+
+ 
+\begin{letter}{Recruiting Manager\\
+Oak Hill Advisors, L.P.\\
+1114 Avenue of the Americas, 27th Floor\\
+New York, NY 10036\\
+}
+
+\mancenter{\Large \bf{Benjamin A. Cook}} \mancenter{ 60 Garden St.~MS
+  10, Cambridge, MA 02138 $\bullet$ (603) 313-2888}
+\mancenter{  \href{mailto:bcook@cfa.harvard.edu}{bcook@cfa.harvard.edu} $\bullet$
+  \href{http://www.cfa.harvard.edu/~bcook}{www.cfa.harvard.edu/$\sim$bcook}}
+\boldline
+
+\signature{\vspace{-0.3in}Ben Cook}                  % name for signature 
+\longindentation=0pt                     % needed to get closing flush left
+\let\raggedleft\raggedright              % needed to get date flush left
+
+\opening{Dear Recruiting Manager,} 
+ 
+\noindent I am writing to express my interest in a Summer 2018
+quantitative internship with Oak Hill Advisors. I am a 4th-year PhD
+candidate in astrophysics at Harvard, expect to complete my PhD in May
+2019, and am eager for the chance to get an insider's view of working
+in quantitative finance at Oak Hill. I recently spoke about the
+opportunities available with Nathaniel Furmer at Harvard's Finance Career
+Networking night on Thursday August 31st, and he recommended I reach
+out personally to ask about internship opportunities for PhD
+candidates. While Mr.~Furmer mentioned that Oak Hill has never had a PhD
+candidate intern in the past, I believe my extensive training as an
+independent researcher, my mindset for solving challenging problems
+with statistical methods, and my experience using and teaching
+GPU-acceleration for improving existing Python projects will make me a
+great asset to your team this summer.
+
+\noindent My skills and my interest in quantitative analysis both grew
+from my early passion for astrophysics. During my undergraduate
+studies at Princeton, my intellectual curiosity was centered on
+questions surrounding the properties of super-massive black holes and
+the nature of dark matter. But what excited me daily and kept me up
+into the early-morning hours were challenges in computation and
+analysis. I truly find nothing more thrilling than solving a
+challenging problem through careful planning, clever statistical
+analysis, and hard work.
+
+\noindent Throughout my PhD program, I have solidified my foundations
+as an independent researcher as well as expanded my computational
+training through both course study and research applications. I have
+taken graduate courses through the Computational Science and
+Engineering program for five straight semesters, including
+\textit{Stochastic Methods for Data Analysis, Inference and
+  Optimization}, and \textit{Advanced Machine Learning}. I taught
+myself the tools of GPU-acceleration with CUDA C and applied it to my
+PhD thesis code to achieve a speed-up of over 16x compared to the
+original Python. I have since become a participant in the NVIDIA
+Developer and Educator program, have given several presentations on
+the principles of GPU-acceleration, and was accepted to lead a
+hands-on tutorial course at the upcoming .Astronomy 9 conference in
+Cape Town, South Africa in November 2017.
+
+\noindent I would be very excited for the opportunity to apply my
+analytical skills and independence as a researcher to a summer
+internship at Oak Hill. As a PhD candidate looking for eventual
+employment in quantitative finance, I would like to prove myself
+capable to apply my knowledge to problems in industry. I would
+appreciate the opportunity to speak more about the possibility of an
+internship for a PhD student, and look forward to hearing back from
+you and learning more. Please feel free to contact me at (603)
+313-2888 or bcook@cfa.harvard.edu.
+
+Thank you for your time and consideration.
+
+%Later, when applying for full-time positions, speak more about
+%Leadership experience
+
+\closing{Sincerely,}
+
+%\encl{Resume}					% Enclosures
+
+\end{letter}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+

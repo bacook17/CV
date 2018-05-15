@@ -28,6 +28,7 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/easylist/easylist.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty)
@@ -43,6 +44,8 @@ No file _latexwork/Cook_CV.aux.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -50,13 +53,13 @@ No file _latexwork/Cook_CV.aux.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd)
-Overfull \hbox (1.60323pt too wide) in paragraph at lines 28--30
+Overfull \hbox (1.60323pt too wide) in paragraph at lines 29--31
 []\OT1/cmr/m/n/10 Homepage: [][]www.cfa.harvard.edu/$\OMS/cmsy/m/n/10 ^^X$\OT1/
 cmr/m/n/10 bcook[][] 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3] )
 (see the transcript file for additional information) </Users/bcook/Library/texl
-ive/2016/texmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.864pk></usr/local/texlive
+ive/2016/texmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.720pk></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
@@ -64,5 +67,5 @@ ive/2016/texmf-var/fonts/pk/ljfour/public/cm/cmbcsc10.864pk></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on _latexwork/Cook_CV.pdf (3 pages, 108472 bytes).
+Output written on _latexwork/Cook_CV.pdf (3 pages, 107749 bytes).
 Transcript written on _latexwork/Cook_CV.log.
