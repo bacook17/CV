@@ -15,6 +15,7 @@ Cook_resume_2pg.pdf: Cook_resume_base.tex res.cls resume_setup.tex
 	cp Cook_resume_base.tex Cook_resume_2pg.tex
 	-command latexdriver Cook_resume_2pg.tex Cook_resume_2pg.pdf
 	rm -f Cook_resume_2pg.tex
+	cp Cook_resume_2pg.pdf Cook_resume.pdf
 
 Cook_resume_1pg.pdf: Cook_resume_base.tex res.cls resume_setup.tex
 	sed 's/resume_setup}/resume_setup}\\input{onepage_resume}/' Cook_resume_base.tex > Cook_resume_1pg.tex
