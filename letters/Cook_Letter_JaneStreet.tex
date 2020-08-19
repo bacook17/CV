@@ -1,0 +1,108 @@
+% Cover letter using letter.cls
+\documentclass{letter}
+\usepackage[colorlinks,urlcolor=blue,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage[margin=0.5in, rmargin=1.in]{geometry}
+\setlength{\textheight}{10in} % increase text height
+\topmargin=-1.5in    % Make letterhead start about 1 inch from top of page
+%\textheight=8in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\newcommand\mancenter[1]{\moveleft.5\hoffset\centerline{#1}}
+\newcommand\boldline{\moveleft.0\hoffset\vbox{\hrule width\textwidth
+    height 1pt}}
+\newcommand\toedit[1]{\textcolor{red}{#1}} 
+\begin{document}
+
+ 
+\begin{letter}{Kait O'Neil\\
+    Jane Street\\ 250 Vesey St\\ New York, NY 10281 }
+
+
+\mancenter{\Large \bf{Benjamin A. Cook}} \mancenter{ 60 Garden St.~MS
+  10, Cambridge, MA 02138 $\bullet$ (603) 313-2888}
+\mancenter{  \href{mailto:bcook@cfa.harvard.edu}{bcook@cfa.harvard.edu} $\bullet$
+  \href{http://www.cfa.harvard.edu/~bcook}{www.cfa.harvard.edu/$\sim$bcook}}
+\boldline
+
+\signature{\vspace{-0.3in}Ben Cook}                  % name for signature 
+\longindentation=0pt                     % needed to get closing flush left
+\let\raggedleft\raggedright              % needed to get date flush left
+
+\opening{Dear Ms. O'Neil,}
+
+\noindent I am writing to inquire about open, full-time positions in the
+Research group at Jane Street. We met in October 2017, when I visited the
+office to interview for a research internship. I am a 5th-year PhD candidate in
+astrophysics at Harvard, and will be receiving my degree in May with a
+secondary field certification in Computational Science and Engineering. I truly
+enjoyed my visit to Jane Street last year, and I believe my demonstrated
+ability to solve challenging problems through computation and mathematics and
+my strong communication and leadership skills would make me an excellent
+addition to your research team.
+
+\noindent Throughout my research career, I have consistently shown a
+proficiency for self-guided, independent research and have taken significant
+steps to expand my expertise in high-performance computing and machine
+learning. My thesis research focuses on developing a Python package to simulate
+images of galaxies as seen by the Hubble Space Telescope and applying Bayesian
+inference to measure the properties of galaxies for which no other techniques
+can be used. My most significant contributions include applying GPU
+computing to accelerate the modeling procedure by a factor of more than
+$30\times$, and using Amazon Web Services to run dozens of simultaneous
+simulations via the cloud.
+
+\noindent I've also demonstrated my ability to apply my programming and machine
+learning skills in an industry setting through my quantitative analysis
+internship at D.E.~Shaw. My research project in the Asset-Backed Securities
+group involved developing and training TensorFlow neural networks to predict
+prepayment rates of GNMA mortgages, with the eventual goal of application to
+pricing Mortgage-Backed Securities. In addition to developing and fine-tuning
+the models, I also presented an extensive report and presentation on their
+accuracy, comparisons to existing techniques, and methods for interpreting
+their predictions and identifying the most important features and feature
+interactions. I received a positive performance review and letter of
+recommendation from my manager, available upon request.
+
+\noindent I've had numerous opportunities to showcase my communication skills
+and talent for leadership. I serve as the Treasurer for a national
+non-profit, a series of science communication workshops for graduate students
+called ComSciCon, and was the chair of National Workshop organizing team for 3
+years. I've twice been awarded the Certificate of Teaching Excellence from
+Harvard's Bok Center, and volunteer each summer as an instructor and mentor to
+underrepresented astrophysics students of color at Harvard's Banneker
+Institute. I've also become a resource for other researchers in my community
+looking to learn about HPC techniques, having hosted several workshops and
+tutorials on GPU programming, Docker containers, and cloud computing.
+
+\noindent While I've treasured my time in academia, I'm extremely excited to
+transition to a career in quantitative finance. I found my internship at
+D.E.~Shaw exhilarating, and I look forward to applying my talent for creative,
+computational problem solving to an industry where new challenges arise every
+day. I have an excellent combination of mathematical and programming
+expertise, strong communication skills, and the proven ability to work
+independently and find unique solutions to challenging problems. I believe I
+would be a significant addition to your research team, and I look forward to
+speaking with your further about the opportunity.
+
+Thank you for your time and consideration.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+

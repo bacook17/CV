@@ -1,4 +1,4 @@
-resumes = Cook_resume_2pg_physical.pdf Cook_resume_2pg.pdf Cook_resume_1pg_physical.pdf Cook_resume_1pg.pdf Cook_CV
+resumes = Cook_resume.pdf
 
 default: $(resumes)
 
@@ -11,26 +11,8 @@ letter_template: Cook_Letter_Template.pdf
 
 letter_fair: Cook_Letter_Fair.pdf
 
-Cook_resume_2pg.pdf: Cook_resume_base.tex res.cls resume_setup.tex
-	cp Cook_resume_base.tex Cook_resume_2pg.tex
-	-command latexdriver Cook_resume_2pg.tex Cook_resume_2pg.pdf
-	rm -f Cook_resume_2pg.tex
-	cp Cook_resume_2pg.pdf Cook_resume.pdf
-
-Cook_resume_1pg.pdf: Cook_resume_base.tex res.cls resume_setup.tex
-	sed 's/resume_setup}/resume_setup}\\input{onepage_resume}/' Cook_resume_base.tex > Cook_resume_1pg.tex
-	-command latexdriver Cook_resume_1pg.tex Cook_resume_1pg.pdf
-	rm -f Cook_resume_1pg.tex
-
-Cook_resume_2pg_physical.pdf: Cook_resume_base.tex res.cls resume_setup.tex
-	sed 's/resume_setup}/resume_setup}\\input{physical_resume}/' Cook_resume_base.tex > Cook_resume_2pg_physical.tex
-	-command latexdriver Cook_resume_2pg_physical.tex Cook_resume_2pg_physical.pdf
-	rm -f Cook_resume_2pg_physical.tex
-
-Cook_resume_1pg_physical.pdf: Cook_resume_base.tex res.cls resume_setup.tex
-	sed 's/resume_setup}/resume_setup}\\input{physical_resume}\\input{onepage_resume}/' Cook_resume_base.tex > Cook_resume_1pg_physical.tex
-	-command latexdriver Cook_resume_1pg_physical.tex Cook_resume_1pg_physical.pdf
-	rm -f Cook_resume_1pg_physical.tex
+Cook_resume.pdf: Cook_resume_base.tex res.cls resume_setup.tex
+	-command latexdriver Cook_resume_base.tex Cook_resume.pdf
 
 %.pdf: %.tex res.cls resume_setup.tex
 	command latexdriver $< $@

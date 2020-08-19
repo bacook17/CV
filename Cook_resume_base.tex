@@ -2,15 +2,13 @@
 % This file uses the resume document class (res.cls)
 
 \documentclass{res}
-\newcommand\digitalonly[1]{#1}
-\newcommand\twopageonly[1]{#1}
 \input{resume_setup}
 
 \begin{document}  
-\mancenter{\Large \bf{Benjamin A. Cook}} \mancenter{ 60 Garden St.~MS
-  10, Cambridge, MA 02138 $\bullet$ (603) 313-2888}
-\mancenter{  \href{mailto:bcook@cfa.harvard.edu}{bcook@cfa.harvard.edu} $\bullet$
-  \href{http://www.cfa.harvard.edu/~bcook}{www.cfa.harvard.edu/$\sim$bcook}}
+\mancenter{\Large \bf{Benjamin A. Cook, PhD}}
+\vspace{0.05in}
+\mancenter{(603) 313-2888 $\bullet$ \href{bacook17@gmail.com}{bacook17@gmail.com} $\bullet$
+  \href{https://bacook17.github.io}{bacook17.github.io}}
 \boldline
 \vspace{-.2in}
 \begin{resume}
@@ -22,18 +20,18 @@
 %  national conference on science communication, and award-winning teacher. Seeking summer
 %  internship and eventual employment in data science, quantitative
 %  analysis, or software development.
-%  
+  
 \mysection{Education}
 \vspace{-.1in}
 \begin{easylist} \mysubsections
   & \itemdate{\textbf{Harvard University}}{Cambridge, MA}
   
-  && \itemdate{Ph.D.~Astronomy and Astrophysics}{Expected May 2019}
+  && \itemdate{Ph.D.~Astronomy and Astrophysics}{2019}
   &&& \textit{Secondary Field:} Computational Science and Engineering
   &&& \textit{Awards:} National Science Foundation Graduate Research
   Fellow, Certificate of Teaching
   Excellence (2x)
-  %&& \itemdate{M.A.~Astronomy and Astrophysics}{2016}
+  && \itemdate{M.A.~Astronomy and Astrophysics}{2016}
   &&& \textit{Relevant Coursework:} Extreme Scale Data and Computational
   Science; Stochastic Methods for Data
   Analysis, Inference and Optimization; Machine Learning;
@@ -57,28 +55,18 @@
   networks and deep learning, Markov chain Monte Carlo (MCMC), reinforcement learning,
   collaborative filtering, classification, clustering
 
-  %& \textit{Interests:} Baking (esp.~French macarons and breads), running
-  %half-marathons, and DMing D\&D campaigns
-
-  %& \textit{Electronic Presentation:} \LaTeX, Jupyter (iPython)
-  %notebook, Microsoft Powerpoint, HTML
-
 \end{easylist}
 
 \mysection{Computational Experience}
 \begin{easylist} \mybullets
 
-  & \itemdate{\textbf{D.E.~Shaw \&{} Co.}}{New York, NY}
-  && \itemdate{Quantitative Analysis Intern}{Summer 2018}
-  &&& Designed Tensorflow deep neural network models to predict mortgage
-  prepayment risk
-  &&& Trained and evaluated models on database of over 200M records representing 12M loans
-  &&& Demonstrated potential of neural networks for identification of
-  tradeable insights and improved predictive power over linear models
+& \itemdate{\textbf{Akuna Capital}}{Boston, MA}
+&& \itemdate{Junior Quantitative Researcher}{August 2019 -- Present}
+%  &&& [Insert Job Description Here]
   
   & \itemdate{\textbf{Harvard University}}{Cambridge, MA}
-  && \itemdate{Graduate Research Fellow, PhD.~Thesis \digitalonly{[\href{https://www.cfa.harvard.edu/~bcook/computation.html\#phd}{link}]}}{2016 --
-    present}
+  && \itemdate{Graduate Research Fellow, PhD.~Thesis}{2016 --
+    2019}
 
   &&&  Developed Bayesian inference framework for analyzing galaxy
   images with nested sampling and MCMC
@@ -86,10 +74,17 @@
   &&&  Apply models to archived Hubble Space Telescope data and lead
   public code distribution via GitHub
 
+  & \itemdate{\textbf{D.E.~Shaw \&{} Co.}}{New York, NY}
+  && \itemdate{Quantitative Analysis Intern}{Summer 2018}
+  &&& Designed Tensorflow deep neural network models to predict mortgage
+  prepayment risk
+  &&& Trained and evaluated models on database of over 200M records representing 12M loans
+  &&& Demonstrated potential of neural networks for identification of
+  tradable insights and improved predictive power over linear models
   
+  & \itemdate{\textbf{Harvard University}}{Cambridge, MA}
   && \itemdate{Team Member, Graduate course final project (\textit{Extreme
-      Scale Data and Computational Science})
-    \digitalonly{[\href{https://anaroxanapop.github.io/behalf/}{link}]}}{Spring
+      Scale Data and Computational Science})}{Spring
     2018}
 
   &&& Developed gpu-accelerated, MPI-parallel N-body gravitation code for
@@ -98,9 +93,7 @@
   &&& Implemented and executed on 587 core, 12 node architecture on Harvard
   super-computing cluster
 
-  \twopageonly{
-    && \itemdate{Graduate Research Fellow, Master's thesis \digitalonly{[\href{https://www.cfa.harvard.edu/~bcook/computation.html\#masters}{link}]}}{2014 --
-    2016}
+  && \itemdate{Graduate Research Fellow, Master's thesis}{2014 -- 2016}
   
   &&&  Built post-processing pipeline for large 
   dataset from cosmological simulation of galaxies
@@ -108,27 +101,25 @@
   histories using results from post-processing pipeline
   &&&  Published results in 1st-author scientific journal article and
   presented work at 4 international scientific meetings
-  }
 
   && \itemdate{Team Member, Graduate course final project (\textit{Machine
-      Learning}) \digitalonly{[\href{https://www.cfa.harvard.edu/~bcook/computation.html\#monkey}{link}]}}{Spring 2016}
+      Learning})}{Spring 2016}
 
   &&&  Designed reinforcement learning model (Q-learner) to
   autonomously play \textit{Flappy Bird}-inspired computer game
 
   &&&  Model surpassed human abilities after 50 games of training
 
-  \twopageonly{
-    && \itemdate{Team Member, Graduate course final project (\textit{Data Science}) \digitalonly{[\href{https://www.cfa.harvard.edu/~bcook/computation.html\#baseball}{link}]}}{Fall 2015}
+  && \itemdate{Team Member, Graduate course final project (\textit{Data Science})}{Fall 2015}
 
   &&&  Scraped baseball reference websites to compile pitcher-batter matchup
   database
 
   &&&  Developed collaborative filtering models with team of 4 to predict
   pitcher-batter match-up success rates
-  }
+
 \end{easylist}
-\pagebreak
+
 \mysection{Leadership Experience}
 \begin{easylist} \mybullets
   & \itemdate{\textbf{ComSciCon National Workshop}}{Cambridge, MA}
@@ -145,121 +136,76 @@
   &&&  Balanced \$80k annual budget and coordinate venue, lodging,
   travel, and catering 
   for 90 students and 30 panelists
-  \twopageonly{
-    &&&  Directed review process for over 1000 applications each year
-  }
+  &&&  Directed review process for over 1000 applications each year
   
   & \itemdate{\textbf{Harvard University}}{Cambridge, MA}
   && \itemdate{Graduate Teaching Fellow}{2015, 2016}
   &&&  Guided weekly review and homework sessions for groups of
   15+ students and led occasional lectures 
-  \twopageonly{
-    &&&  Supervised group observational labs and graded
-    problem sets and exams
-    }
+  &&&  Supervised group observational labs and graded
+  problem sets and exams
   &&&  Twice awarded Certificate of Teaching Excellence by Bok Center for
   Teaching and Learning
 
-  %& \itemdate{\textbf{West End House Boys and Girls Club}}{Boston, MA}
-  %&& \itemdate{Homework Buddy}{2017 -- Present}
-  %&&& Tutor local elementary student weekly in reading and math
-  \twopageonly{
+  & \itemdate{\textbf{West End House Boys and Girls Club}}{Boston, MA}
+  && \itemdate{Homework Buddy}{2017 -- Present}
+  &&& Tutor local elementary student weekly in reading and math
+
   & \itemdate{\textbf{Banneker Institute}}{Cambridge, MA}
   && \itemdate{Mentor / Instructor}{2016 -- present}
   &&& Instruct undergraduate students of color in summer astronomy
   program
   &&& Advise on graduate school application process and edit
   application materials
-}
 
-  & \itemdate{\textbf{Princeton University Ticketing}}{Princeton, NJ}
-  && \itemdate{Ticketing Manager}{2011 -- 2014}
-  &&& First student employee ever promoted to position of Ticketing Manager
-  &&& Supervised team of 12+ employees, coordinated shift schedules,
-  and wrote weekly staff guides
-  &&& Compiled weekly updates and quarterly business reports for upper
-  management
-  \twopageonly{
-  &&& Created and implemented improved training procedures for new
-    employees
-    }
+  %% & \itemdate{\textbf{Princeton University Ticketing}}{Princeton, NJ}
+  %% && \itemdate{Ticketing Manager}{2011 -- 2014}
+  %% &&& First student employee ever promoted to position of Ticketing Manager
+  %% &&& Supervised team of 12+ employees, coordinated shift schedules,
+  %% and wrote weekly staff guides
+  %% &&& Compiled weekly updates and quarterly business reports for upper
+  %% management
+  %% &&& Created and implemented improved training procedures for new
+  %%   employees
 \end{easylist}
 
-\twopageonly{
-\mysection{Selected Publications (2 of 5)}
-\begin{easylist} \mysubsections}
-\twopageonly{
+\mysection{Selected Publications (3 of 6)}
+\begin{easylist} \mysubsections
 %\ListProperties(Style2**=$\bullet\;$,)
+  & \textbf{Cook, B.A.}, Conroy, C., van Dokkum, P., and Speagle, J.S. 2016, \textit{ApJ}, 876, 78. [\href{https://arxiv.org/abs/1904.00011}{arXiv:1904.00011}]
+  && \textit{Measuring Star-Formation Histories, Distances, and Metallicities
+    with Pixel Color-Magnitude Diagrams I: Model Definition and Mock Tests}
+  
   & \textbf{Cook, B.A.}, Conroy, C., Pillepich, A., et
-  al. 2016, \textit{ApJ}, 833, 158. \digitalonly{[\href{https://arxiv.org/abs/1610.00014}{arXiv:1610.00014}]}
+  al. 2016, \textit{ApJ}, 833, 158. [\href{https://arxiv.org/abs/1610.00014}{arXiv:1610.00014}]
   && \textit{The information content of stellar halos: Stellar
     population gradients and accretion histories in early-type
     Illustris galaxies}
   
   & \textbf{Cook, B.A.}, Williams, P.K.G., and Berger, E. 2014, 
-  \textit{ApJ}, 785, 10 \digitalonly{[\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]}
+  \textit{ApJ}, 785, 10 [\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
   && \textit{Trends in Ultracool Dwarf Magnetism. II. The Inverse
     Correlation Between X-ray Activity and Rotation as Evidence for a
     Bimodal Dynamo}
 \end{easylist}
-}
-\twopageonly{
-\mysection{Selected Contributed and Public Talks (3 of 7)}
-\begin{easylist}  \mysubsections}
-\twopageonly{
+
+\mysection{Selected Contributed and Public Talks (3 of 9)}
+\begin{easylist}  \mysubsections
+  & \itemdate{Challenges in Panchromatic Galaxy Modelling with Next Generation
+    Facilities -- Osaka, Japan}{November
+    2018}
+  && \textit{Pixel Color-Magnitude Diagrams}
+
   & \itemdate{.Astronomy 9 -- Cape Town, South Africa}{November
     2017}
   && \textit{Tutorial: GPU-acceleration with Python}
-  %& Public Talks (1 of 2)
-  
-  %& Selected Conference Presentations (4 total)
+
   & \itemdate{On the Origin (and Evolution) of Baryonic Galaxy Halos
     -- Galapagos Islands, Ecuador}{March 2017}
   && \textit{The Information Content of Stellar Halos: Accretion
     Histories and Stellar Population Gradients in Quiescent Illustris Galaxies}
 
-  & \itemdate{New Hampshire Astronomical Society Meeting --
-    Manchester, NH}{May 2016}
-  && \textit{Growing Galaxies in a Computer with the Illustris
-    Simulated Universe}
-
-  %& Hamann, F., Zakamska, N.L., Ross, N., et al. 2016, \textit{MNRAS, In Press} [\href{http://arxiv.org/abs/1609.07241}{arXiv:1609.07241}] 
-  
-  %& \textbf{Cook, B.A.}, Williams, P.K.G., and Berger, E. 2014, 
-  %\textit{ApJ}, 785, 10
-  %       [\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
-
-  %& Williams, P.K.G., \textbf{Cook, B.A.}, and Berger, E. 2014,  \textit{ApJ}, 785, 9
-  %       [\href{http://arxiv.org/abs/1310.6757}{arXiv:1310.6757}]
-
-  %& P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014,
-  %       \textit{A\&A}, 563, A54
-  %       [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
-}
-\twopageonly{
 \end{easylist}
-}
-
-%\mysection{Selected Presentations}
-%\vspace{.05in}
-%\begin{easylist}[enumerate] \mysubsections
-%  \ListProperties(Hide=0)
-%  & (1 of 5) 
-
-  %& Hamann, F., Zakamska, N.L., Ross, N., et al. 2016, \textit{MNRAS, In Press} [\href{http://arxiv.org/abs/1609.07241}{arXiv:1609.07241}] 
-  
-  %& \textbf{Cook, B.A.}, Williams, P.K.G., and Berger, E. 2014, 
-  %\textit{ApJ}, 785, 10
-  %       [\href{http://arxiv.org/abs/1310.6758}{arXiv:1310.6758}]
-
-  %& Williams, P.K.G., \textbf{Cook, B.A.}, and Berger, E. 2014,  \textit{ApJ}, 785, 9
-  %       [\href{http://arxiv.org/abs/1310.6757}{arXiv:1310.6757}]
-
-  %& P\^{a}ris, I., Petitjean, P., Aubourg, \'E., et al. 2014,
-  %       \textit{A\&A}, 563, A54
-  %       [\href{http://arxiv.org/abs/1311.4870}{arXiv:1311.4870}]
-%\end{easylist}
-
 
 \end{resume} 
 \end{document}
